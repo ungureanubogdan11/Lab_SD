@@ -1,0 +1,29 @@
+# --- Object Files ---
+# These are the intermediate files generated for each source file
+*.o
+*.obj
+
+# --- Static & Dynamic Libraries ---
+# Compiled library files
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# --- Executables ---
+# Standard Windows executable
+*.exe
+# Common Linux/macOS executable extensions
+*.out
+*.app
+
+# --- Debug & Symbols ---
+# Files generated for debugging (often quite large)
+*.pdb
+*.idb
+*.dSYM/
+
+# --- Precompiled Headers ---
+*.gch
+*.pch
