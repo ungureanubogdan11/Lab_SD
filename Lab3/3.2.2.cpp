@@ -12,7 +12,6 @@ int n, l, u;
 int v[1000001];
 
 int res(int k) {
-    // if(k == 0) return 0;
 
     unordered_map<int, int> fr;
     int st = 1;
@@ -51,3 +50,5 @@ signed main() {
     return 0;
 
 }
+
+// https://infoarena.ro/job_detail/3349852
