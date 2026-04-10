@@ -3,13 +3,14 @@
 using namespace std;
 
 string s[1001];
-int p = 57, MOD = 1e9 + 7, h[1001];
+int p = 57, MOD = 1e9 + 7;
+uint64_t h[1001];
 int n;
 
-int hash_function(const string & s) {
-    int ans = 1;
+uint64_t hash_function(const string & s) {
+    uint64_t ans = 1;
     for(int i = 0; i < s.size(); ++i) {
-        ans = (ans * p + s[i]) % MOD;
+        ans = (ans * p + s[i]);
     }
     return ans;
 }
