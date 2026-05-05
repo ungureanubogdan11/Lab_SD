@@ -70,3 +70,5 @@ int main() {
 
     cout << maxi << ' ' << st << ' ' << dr << '\n';
 }
+
+// https://infoarena.ro/job_detail/3353270
